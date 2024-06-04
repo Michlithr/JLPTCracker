@@ -1,0 +1,44 @@
+@import "@/styles/variables.module.scss";
+
+.header {
+  width: 100%;
+  height: 64px;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $background;
+  color: $text;
+}
+
+.navLink,
+.homeIcon {
+  font-weight: 500;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.navLink {
+  font-size: 16px;
+  padding: 4px;
+  margin: 0 8px;
+  text-decoration: none;
+  color: $text;
+}
+
+.homeIcon {
+  margin-left: 128px;
+  font-size: 48px;
+}
+
+.navLink:hover,
+.homeIcon:hover {
+  color: $text-header-hover;
+  border: 2px solid $text-header-hover;
+}
+
+.navLinksContainer {
+  margin: 0 128px 0 0;
+}

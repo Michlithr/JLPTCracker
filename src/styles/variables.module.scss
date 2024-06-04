@@ -1,0 +1,41 @@
+$background: #ffd1dc;
+$background-secondary: #ffb6c1; //This can be used for section backgrounds to create a contrast with the Sakura Pink.
+$background-tertiary: #ffe4e1; //This can be used for backgrounds of pop-up windows or sidebars.
+
+$button: #8fb69c;
+$button-secondary: #6b8e23; //This can be used for secondary actions or to provide a contrast with the Matcha Green buttons.
+$button-tertiary: #556b2f; //This can be used for tertiary actions or to provide another level of contrast with the other button colors.
+
+$highlight: #8b4513;
+
+$text: #1c1c1c;
+$text-header-hover: #333;
+$text-secondary: #a9a9a9; //This can be used for less important text or placeholders.
+
+$border: #696969; //This can be used for card borders, dividers, or outlines around active elements.
+
+$accent-yellow: #ffd700; //This can be used for important icons or highlights.
+$accent-coral: #ff7f50; //This can be used for warnings or important notifications.
+
+// answers
+$correct: #2e8b57;
+$wrong: #b22222;
+$practice-more: #daa520;
+
+:export {
+  background: $background;
+  backgroundSecondary: $background-secondary;
+  backgroundTertiary: $background-tertiary;
+  button: $button;
+  buttonSecondary: $button-secondary;
+  buttonTertiary: $button-tertiary;
+  highlight: $highlight;
+  text: $text;
+  textSecondary: $text-secondary;
+  border: $border;
+  accentYellow: $accent-yellow;
+  accentCoral: $accent-coral;
+  correct: $correct;
+  wrong: $wrong;
+  practiceMore: $practice-more;
+}
