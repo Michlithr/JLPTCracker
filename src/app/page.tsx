@@ -1,11 +1,10 @@
 import styles from "./page.module.scss";
-import Header from "@/components/header";
+import ExploreLayout from "@/layouts/exploreLayout";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <Header />
-      <div className={styles.content}>Content</div>
-    </main>
+    <ExploreLayout>
+      <div>Content</div>
+    </ExploreLayout>
   );
 }
