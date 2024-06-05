@@ -1,0 +1,18 @@
+@import "@/styles/variables.module.scss";
+
+.explorePage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: auto;
+  background-color: $background-content;
+}
+.content {
+  width: calc(100% - 256px);
+  margin: 24px 128px;
+  overflow: auto;
+  flex-grow: 1;
+}
