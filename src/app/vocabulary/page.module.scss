@@ -1,0 +1,5 @@
+.vocabularyList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(124px, 1fr));
+  gap: 20px;
+}

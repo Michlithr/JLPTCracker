@@ -4,9 +4,11 @@ import Link from "next/link";
 export default function Header() {
   return (
     <header className={styles.header}>
-      <span className={`${styles.homeIcon} material-symbols-outlined`}>
-        home
-      </span>
+      <Link href="/">
+        <span className={`${styles.homeIcon} material-symbols-outlined`}>
+          home
+        </span>
+      </Link>
       <div className={styles.navLinksContainer}>
         <Link href="/kanji" className={styles.navLink}>
           Kanji

@@ -1,0 +1,17 @@
+@import "@/styles/variables.module.scss";
+
+.filterPill {
+  margin: 12px 12px 24px 12px;
+  padding: 8px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: $accent-yellow;
+  transition: border 0.3s ease, color 0.3s ease;
+}
+
+.filterPill:hover {
+  border-color: darken($accent-yellow, 30%);
+  background-color: darken($accent-yellow, 10%); // Darkens the color by 30%
+}

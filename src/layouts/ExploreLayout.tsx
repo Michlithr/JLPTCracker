@@ -1,8 +1,8 @@
-import styles from "./exploreLayout.module.scss";
-import Header from "@/components/header";
+import styles from "./explore-layout.module.scss";
+import Header from "@/components/Header";
 
 export default function ExploreLayout({
-  children, // will be a page or nested layout
+  children,
 }: {
   children: React.ReactNode;
 }) {

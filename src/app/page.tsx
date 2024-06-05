@@ -1,5 +1,5 @@
 import styles from "./page.module.scss";
-import ExploreLayout from "@/layouts/exploreLayout";
+import ExploreLayout from "@/layouts/ExploreLayout";
 
 export default function Home() {
   return (
